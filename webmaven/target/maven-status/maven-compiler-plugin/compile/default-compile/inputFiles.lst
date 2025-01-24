@@ -1,0 +1,8 @@
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/controladores/SociosServlet.java
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/negocio/Direccion.java
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/negocio/Socio.java
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/repositories/DireccionRepository.java
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/repositories/SocioRepository.java
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/repositories/jdbc/DireccionRepositoryJDBC.java
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/repositories/jdbc/SocioRepositoryJDBC.java
+/home/cie/Escritorio/webmaven/src/main/java/es/ascender/biblioteca/repositories/memoria/SocioRepositoryMemoria.java

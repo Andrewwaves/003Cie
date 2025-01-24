@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            .nomostrar {
+                display:none;
+            }
+            .mostrar {
+                display:block;
+            }
+        </style>
+        <script type="text/javascript">
+
+            function pulsame() {
+                var cajaNota=document.getElementById("nota");
+                var miparrafo=document.getElementById("miparrafo");
+                console.log(cajaNota.value);
+                if(cajaNota.value>=5){
+                    alert("aprobado");
+                    miparrafo.className="mostrar";
+                }else{
+                    alert("suspendido");
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+
+    Nota:<input type="text" id="nota" name="nota"/>
+        <p class="nomostrar id="miparrafo">los datos no son validos</p>
+    <input type="button" value="pulsar" onclick="pulsame()"/>
+    </body>
+</html>
