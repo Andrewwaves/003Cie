@@ -3,9 +3,6 @@
 
 <%@ page import="es.cie.ordenador.negocio.Ordenador"%>
 <%@ page import="java.util.List"%>
-<%
-List<Ordenador> lista = (List<Ordenador>) request.getAttribute("lista");
-%>
 
 <!DOCTYPE html>
 <html>
@@ -36,12 +33,14 @@ List<Ordenador> lista = (List<Ordenador>) request.getAttribute("lista");
 				<th>precio</th>
 			
 			</tr>
+<%
+List<Ordenador> lista = (List<Ordenador>) request.getAttribute("lista");
+%>
 			<%
 		//for each
 		for (Ordenador ordenador : lista) {
 		%>
 
-		<!-- fila o row tr (table row) -->
 		<tr>
 			<td><%=ordenador.getMarca()%></td>
 			<td><%=ordenador.getPrecio()%></td>
